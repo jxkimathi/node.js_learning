@@ -18,3 +18,4 @@ emitter.on("order-pizza", (size) => {
 // Event driven programming
 console.log("Do work before the event");
 emitter.emit("order-pizza", "large", "mushroom");
+console.log("Hello World!");
